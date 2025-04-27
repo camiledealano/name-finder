@@ -7,7 +7,6 @@ import java.util.concurrent.*;
 import java.util.stream.Stream;
 
 public class ParallelBoyerMooreFinder {
-    // Implementação do algoritmo Boyer-Moore
     private static class BoyerMoore {
         private final int[] right;
         private final String pattern;
